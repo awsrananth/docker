@@ -1,0 +1,59 @@
+/* Basic reset to remove default margins/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and style to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container for centering content */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+/* Heading styles */
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 18px;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
